@@ -1,0 +1,327 @@
+/*////////////////////////////////////320px-568px/////////////////////////////////////*/
+
+@media only screen and (max-width:375px) {
+	.yxk-yxk .zhz-cont-box,
+	.yxk-yxk .zhz-cont-boxc {
+		padding: 20px 1%;
+	}
+	.message .col-xs-7 h3 {
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+	body {
+		font-size: 1rem;
+	}
+	.index-choose-list .row a {
+		padding: 0 !important;
+	}
+	.index-choose-list-else p:first-child {
+		margin: 5px 0;
+	}
+	.index-choose {
+		height: 98%;
+	}
+	.class-item .col-xs-6.col-md-6 {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+	.class-item-price,
+	.class-item-time {
+		padding: 0;
+		margin-bottom: 5px;
+	}
+	.news .col-xs-8 {
+		font-size: 13px;
+	}
+	.news .col-xs-8 p {
+		font-size: 1.5rem;
+		margin-bottom: 12%;
+	}
+	.teac-z .feature-item a img {
+		margin-top: 45% !important;
+	}
+	.teac-z .col-xs-8>p {
+		margin-bottom: 10px;
+	}
+	.teac-z-kword span~span {
+		padding: 3px 6px;
+		margin-bottom: 5px;
+		display: inline-block;
+	}
+	.book .zhz-cont-item .node-title p {
+		font-size: 1.2rem;
+	}
+}
+
+
+/*/////////////////////////////////375-667/////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 325px) and (max-width: 667px) {
+	.teac-z .feature-item a img {
+		margin-top: 15% !important;
+	}
+	.book .zhz-cont-item .node-title p {
+		font-size: 1.4rem;
+	}
+}
+
+
+/*////////////////////////////////////768px-1024px/////////////////////////////////////*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	body {
+		font-size: 1.8rem !important;
+	}
+	.zhz-cont {
+		padding-top: 15%;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	.index-choose h3 {
+		font-size: 2rem;
+	}
+	.index-video-title {
+		padding-bottom: 30px;
+	}
+	.index-video-title span {
+		top: 15px;
+	}
+	.class-item p {
+		margin-bottom: 30px;
+	}
+	.index-class .eye {
+		top: 4px;
+		width: 20%;
+		height: 15px !important;
+	}
+	.class-item-time {
+		margin-bottom: 10px;
+	}
+	.class-item-price .pull-left span {
+		font-size: 2.2rem;
+	}
+	.index-help a img {
+		padding-top: 5%;
+	}
+	.news .col-xs-8 {
+		font-size: 2.5rem;
+		padding-left: 30px;
+	}
+	.news .col-xs-8 p {
+		font-size: 2.3rem;
+		margin-bottom: 21%;
+	}
+	.news .col-xs-8 .eye {
+		top: 4px;
+		height: 25px;
+	}
+	.news .col-xs-8 .time {
+		width: 13%;
+		height: 30px;
+		top: 3px;
+	}
+	.zhz-cont-item .node-title h2 {
+		margin-bottom: 15px;
+	}
+	.zhz-cont-item .node-title p {
+		font-size: 2.1rem;
+	}
+	.care .zhz-cont-item .node-title {
+		top: 40px;
+	}
+	.feature .col-xs-4 {
+		width: 25%;
+	}
+	.feature .col-xs-8 h3 {
+		font-size: 2rem;
+	}
+	.teac-z .col-xs-8>p {
+		margin-bottom: 15px;
+	}
+	.teac-z .class-item-time {
+		margin-bottom: 10px;
+	}
+	.teac-z-kword span~span {
+		padding: 3px 15px;
+	}
+	.teac-z .eye {
+		width: 21%;
+		height: 20px;
+	}
+	.book h2 {
+		margin-bottom: 20px !important;
+	}
+	.zhz-cont-box-list p {
+		font-size: 2rem;
+		line-height: 2.4rem;
+	}
+	.zhz-cont-box-list .row {
+		padding: 15px;
+	}
+	.yxk .btn-more {
+		margin: 20px auto;
+	}
+	.zhz-cont-box-list .row {
+		margin-bottom: 30px;
+	}
+	.storeroom ul {
+		padding-bottom: 35px;
+	}
+	.storeroom .btn-sr-sublist {
+		font-size: 16px !important;
+	}
+	.sr-m .yxk-yx-info h5 {
+		font-size: 2rem;
+		margin: 40px 0;
+	}
+	.yxk-yx .yxk-yx-info h5 {
+		font-size: 2rem;
+	}
+	.message .col-xs-7 h3 {
+		font-size: 2.2rem;
+	}
+	.message .col-xs-7 span {
+		font-size: 2rem;
+	}
+	.message .class-item-time i {
+		width: 12%;
+	}
+	.message .eye {
+		height: 18px;
+		top: 5px;
+	}
+	.live .feature-item  h3 {
+		font-size: 2.5rem;
+	}
+}
+/*////////////////////////////////////1024px-1366px/////////////////////////////////////*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+	body {
+		font-size: 3rem !important;
+	}
+	.zhz-cont {
+		padding-top: 15%;
+	}
+	header .dropdown-menu>li>a {
+		font-size: 2.5rem;
+	}
+	.index-choose-list .btn-more {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.index-video-title {
+		padding: 0 5% 30px;
+		text-align: center;
+	}
+	.index-video-title span {
+		top: 20px;
+	}
+	h2 {
+		font-size: 4rem;
+	}
+	.index-choose h3 {
+		font-size: 3rem;
+	}
+	.index-video-title {
+		padding-bottom: 40px;
+	}
+	.class-item-time {
+		margin-bottom: 10px;
+	}
+	.class-item-price .pull-left span {
+		font-size: 3.5rem;
+	}
+	.index-help a img {
+		padding-top: 5%;
+	}
+	.index-class .eye {
+		top: 8px;
+		width: 30%;
+		height: 24px !important;
+	}
+	.news .col-xs-8 {
+		padding-left: 30px;
+	}
+	.news .col-xs-8 p {
+		font-size: 3.3rem;
+		margin-bottom: 21%;
+	}
+	.news .col-xs-8 .eye {
+		height: 28px;
+	}
+	.news .col-xs-8 .time {
+		width: 11%;
+		height: 30px;
+		top: 3px;
+	}
+	.zhz-cont .node-title h2 {
+		margin-bottom: 15px;
+	}
+	.zhz-cont-item .node-title p {
+		font-size: 3.2rem;
+	}
+	.test ul {
+		margin-top: 80px;
+	}
+	.care .zhz-cont-item .node-title {
+		top: 40px;
+	}
+	.feature .col-xs-8 h3 {
+		font-size: 3rem;
+	}
+	.teac-z .col-xs-8>p {
+		margin-bottom: 10px;
+	}
+	.teac-z .eye {
+		width: 25%;
+		height: 30px;
+		top: 5px;
+	}
+	.book h2 {
+		margin-bottom: 20px !important;
+	}
+	.zhz-cont-box-list p {
+		font-size: 2.5rem;
+		line-height: 3rem;
+	}
+	.zhz-cont-box-list .row {
+		margin-bottom: 30px;
+	}
+	.storeroom ul {
+		padding-bottom: 50px;
+	}
+	.storeroom .btn-sr-sublist {
+		font-size: 32px !important;
+	}
+	.sr-m .yxk-yx-info h5 {
+		font-size: 3rem;
+		margin: 40px 0;
+	}
+	.yxk-yx .yxk-yx-info h5 {
+		font-size: 3rem;
+	}
+	.message .col-xs-7 h3 {
+		font-size: 3.2rem;
+	}
+	.message .col-xs-7 span {
+		font-size: 3rem;
+	}
+	.message .class-item-time i {
+		width: 12%;
+		margin-right: 15px;
+	}
+	.message .eye {
+		height: 30px;
+		top: 5px;
+	}
+	.feature-title span{
+		top: 19px;
+	}
+	.live .feature-item  h3 {
+		font-size: 3.5rem;
+	}
+}
