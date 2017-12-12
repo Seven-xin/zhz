@@ -1,0 +1,125 @@
+ a { text-decoration: none !important; color: #333 ; }
+ ul,li { padding: 0; list-style: none; }
+.container { width: 1200px; }
+ body { background: #f0f0f0; }
+.border-all { border: 1px solid #d5d5d5; }
+.border-bottom { border-bottom: 1px solid #d5d5d5; }
+.border-right { border-right: 1px solid #d5d5d5; }
+.border-left { border-left: 1px solid #d5d5d5; }
+.border-top { border-top: 1px solid #d5d5d5; }
+
+.banner { width: 100%; }
+.banner img { display: block;  width: 100%;}
+.btn-zhz {display: inline-block; padding: 5px 15px; background: #fff100; border-radius: 10px;}
+.more { position: absolute; height: 60px; right: 15px; text-align: center; }
+.icon-more { display: inline-block; float: left; width: 21px; height: 21px; background: url(../img/homepage/more.png) no-repeat; margin-right: 10px; position: relative; top: 18px; }
+.more a { text-decoration: underline !important; line-height: 60px; }
+.hasmt10 { margin-top: 10px; }
+.hasmt20 { margin-top: 20px; }
+.hasmt30 { margin-top: 30px; }
+.hasmb30 { margin-bottom: 30px; }
+.hasmt40 { margin-top: 40px; }
+.hasmb40 { margin-bottom: 40px; }
+.bg-white { background: #fff; }  
+.bg-0 { background: #000; }  
+/* fix-nav */
+.fix-nav { position: fixed; top: 150px; right: 5px; width: 200px; height: auto; z-index: 99999; background: #fff; padding-bottom: 20px; border: 1px solid #fff100;}  
+.fix-logo { width: 100%; height: 85px; background-image: url(../img/homepage/logo2.png); background-repeat: no-repeat; background-position: 5px 10px; background-color: #fff100; }  
+.fix-list { height: auto; width: 100%; box-sizing: border-box; padding: 5px; }  
+.fix-list li { width: 100%; border-radius: 10px; border: 1px solid #fff100; width: 185px; height: 40px; margin-bottom: 10px; line-height: 40px; }  
+.fix-list li a { text-decoration: none; color: #333; display: inline-block; width: 100%; height: 100%; }  
+.fix-list li:hover { background: #fff100; }  
+.fix-list li i { display: inline-block; float: left; height: 30px; width: 30px; margin: 5px 30px 0 20px; background-repeat: no-repeat; background-size: 100% 100%;}  
+.fix-list li:nth-child(1) i { background-image: url(../img/homepage/fix-1.png) }  
+.fix-list li:nth-child(2) i { background-image: url(../img/homepage/fix-2.png) }
+.fix-list li:nth-child(3) i { background-image: url(../img/homepage/fix-3.png) }  
+.fix-list li:nth-child(4) i { background-image: url(../img/homepage/fix-4.png) }  
+.fix-list li:nth-child(5) i { background-image: url(../img/homepage/fix-5.png) }  
+.fix-list li:nth-child(6) i { background-image: url(../img/homepage/fix-6.png) }  
+.fix-tel { width: 100%; height: 70px; text-align: center; box-sizing: border-box; padding: 0 20px; }  
+.fix-tel .border-bottom { padding-bottom: 5px; margin: 0 ; }
+.fix-tel p:nth-child(2) { margin-top: 10px;}
+.fix-back img { transform: rotate(180deg);}
+.fix-back {display: block;text-align: center; font-size: 12px; }
+.fix-back:hover { color: #333;}
+/* node-title */
+.node-title { position: relative; width: 100%; height: 60px; }
+.node-title-box { height: 100%; width: auto; margin: 0 auto; text-align: center; }
+.node-title-box span { position: relative;  font-size: 18px; font-weight: bold; line-height: 60px;}
+.node-title-box span::after { content: ''; display: inline-block; background: url(../img/homepage/icon.png) no-repeat; width: 10px; height: 35px; position: absolute; top: -8px; left: -20px; margin-right: 10px; }
+.node-title-search { position: absolute; right: 20px; top: 15px; }
+/* location */
+.location { margin: 10px auto; }
+.location p { color: #333; margin: 10px 0;}
+.location p a { cursor: pointer; color: #333; }
+.location p a:last-child { text-decoration: underline; }
+/* course-list */
+.course-list a { border: 1px solid #333 ;font-family: 寰蒋闆呴粦; color: #000 !important}
+.course-list { padding: 15px 0; height: auto; margin-bottom: 0; display: flex; justify-content: space-between; }
+.disc .course-list { border-right: 1px solid #d5d5d5; }
+.course-list li { padding: 15px; height: auto; width: auto; border: 1px solid #d5d5d5; box-sizing: border-box; border-radius: 10px; background: #fff; }
+.course-list li:hover { border: 1px solid #fff100; }
+.course-list li p { text-align: center; margin: 0; font-size: 17px; font-weight: bold;}
+.course-list-imgbox { width: 100%; height: auto; margin-bottom: 15px; }
+.course-list-imgbox a {border:none }
+.course-list-imgbox img { display: block; margin: 0 auto; border-radius: 5px}
+.course-timel { margin-bottom: 12px; }
+.eye { display: inline-block; float: left; width: 27px; height: 16px; background: url(../img/eye.png) no-repeat; margin-right: 5px; }
+.course-price span { font-size: 21px; font-weight: bold; }
+.course-price a { display: inline-block; border: 1px solid #999; width: 84px; height: 24px; text-align: center; line-height: 24px; color: #999; border-radius: 5px; }
+.course-price a:hover { background: #fff100; }
+.course-buy {margin-top:10px;  display: block; width: 100%; background: #f0f0f0; height: 36px; text-align: center; line-height: 36px; border-radius: 10px; font-size: 16px; color: #999 !important; letter-spacing: 6px}
+/* libao */
+.libao-box  { padding: 80px 0 0 85px; height: 440px; background: url(../img/homepage/libao.png) no-repeat 100%; }
+.libao-box h4 { margin-bottom: 10px; }
+.libao-box h5 { color: #fff100; font-weight: bold; font-size: 16px; }
+.libao-box li { padding-left: 25px; height: 30px; line-height: 30px; position: relative; }
+.libao-box li::after { content: ''; display: block; position: absolute; left: 6px; top: 8px; width: 12px; height: 12px; background: #fff; border: 4px solid #fff100; border-radius: 50%; }
+.libao-box button { background: #fff100; margin-left: 20px; }
+/*  */
+.kyzx-list { height: 1145px; box-sizing: border-box; padding: 0 50px 0 10px; }
+.kyzx-list li { width: 100%; height: 160px; box-sizing: border-box; padding: 20px; border-bottom: 1px solid #d5d5d5; }
+.kyzx-list li:hover p { text-decoration: underline; }
+.kyzx-list li img { display: block; width: 210px; height: 120px; }
+.kyzx-list-info { padding-left: 15px; width: 550px; height: 120px; box-sizing: border-box; }
+.kyzx-list-info h5 { margin-top: 0 !important; font-size: 18px; }
+.kyzx-list-info .course-time { margin-top: 5px; }
+/*header*/
+.header{width:100%;height: 68px;background: #fff;}
+.header-cont{width:1200px;margin:0 auto;}
+.logo{width:200px;height: 68px;float: left;}
+.logo img { margin-top: 10px; }
+.header h1 { margin: 0; font-size: 0;}
+.header-ul{display: flex;flex-direction: row;width:auto;margin-left: 30px;float: left; margin-bottom: 0;}
+.header-li{padding:0 16px;box-sizing: border-box;height: 68px;position: relative;}
+.header-li:hover{background:  #fff100;}
+.header-li-list{display: none;position: absolute;left: 1px;top:68px;box-shadow: 0 0 1px; z-index: 999; width:200px;background: #f0f0f0;}
+.header-li-list-li-a{display: block;padding:5px 0 5px 20px;font-size: 16px;}
+.header-li-list-li-a:hover{background: #fff;}
+.header-li-hover:hover .header-li-list{display: block;}
+.heaeder-li-a{line-height: 68px;font-size: 18px;width:100%;display: flex;}
+.heaeder-li-a-span { display: inline-block; width: 13px; height: 8px; background: url(../img/homepage/sanjiao2.gif) no-repeat center; margin-top: 32px; margin-left: 5px; }
+/*footer*/
+.foot{width:100%;background: #282828;padding: 30px 0;}
+.footer{width:100%;max-width: 1200px;margin:0 auto;}
+.footer-left{width:60%;float: left;}
+.footer-left-ul{display: flex;flex-direction: row;}
+.footer-left-li{ float: left;}
+.footer-left-li-a{padding:10px 20px;color:#fff !important;font-size: 18px;display: flex;}
+.footer-address{margin-top: 80px;}
+.footer-address-p{margin-top: 15px;text-indent: 20px;color: #fff;font-size: 14px;}
+.footer-address-p-span{width:20px;display: inline-block;}
+.footer-right{float: left;width:40%;}
+.footer-right-icon{width: 100%;height: 50px;padding-bottom: 160px;padding-left: 100px;}
+.footer-right-icon-wechat{width:50px;height: 50px;float: left;position: relative;margin-right: 20px;}
+.footer-right-wechat-img{width:40px;}
+.footer-right-phone{}
+.footer-right-phone-p{color: #fff;text-indent: 100px;}
+.footer-right-wechat-er{width:150px;position: absolute;left: -50px;top:40px;display: none;}
+.footer-right-wechat-er-img{width: 100%;}
+.footer-right-icon-wechat1:hover .footer-right-wechat-er{display: block;}
+
+
+
+
+

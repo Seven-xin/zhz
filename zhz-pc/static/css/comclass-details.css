@@ -1,0 +1,227 @@
+/* 公共课-详情页 */
+.comd-banner {
+	width: 100%;
+}
+
+.comd-banner img {
+	display: block;
+	width: 100%;
+}
+
+.comclass-d .container {
+	padding: 0;
+	
+}
+
+.comclass-d-item {
+	padding: 20px;
+	height: 470px;
+}
+
+.comclass-d-item .row {
+	border: 1px solid #d5d5d5;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.comclass-d-item img {
+	margin-top: 30px;
+}
+
+.comclass-d-item-info {
+	padding: 30px 30px 30px 0;
+}
+
+.comclass-d-item-info p {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.comclass-d-item-info p span {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.comclass-d-item-info p:first-child a {
+	font-weight: 800;
+}
+
+.comclass-d-item-info p:nth-of-type(2) span {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.comclass-d-item-info p:nth-of-type(2) {
+	margin-bottom: 70px;
+}
+
+.comclass-d-item-info p:nth-of-type(3) span,.comclass-d-item-info p:nth-of-type(4) span,.comclass-d-item-info p:nth-of-type(5) span {
+	font-size: 18px;
+}
+
+.comclass-d-item-btn::after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.comclass-d-item-btn {
+	height: 35px;
+}
+
+.comclass-d-item-btn a {
+	display: inline-block;
+	float: left;
+	width: 150px;
+	height: 100%;
+	border: 1px solid #fff100;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 10px;
+}
+
+.comclass-d-item-btn a:first-child {
+	margin: 0 70px;
+}
+
+.comclass-d-item-btn a:hover {
+	background: #fff100;
+}
+
+.comclass-d .container{
+	padding-bottom: 50px;
+}
+
+.comclass-d-info {
+	position: relative;
+	padding: 20px;
+	height: 590px;
+}
+
+.comclass-d-info-l {
+	padding: 20px 300px 20px 20px;
+	border: 1px solid #d5d5d5;
+	height: 100%;
+}
+
+.comd-l-box {
+	margin-bottom: 30px;
+}
+
+.comd-l-box p {
+	text-indent: 2em;
+}
+
+.comclass-d-info-r {
+	position: absolute;
+    top: 40px;
+    right: 100px;
+    height: 95%;
+    width: 180px;
+    background: #fff766;
+    padding: 10px 0 0 25px;
+}
+
+.comclass-d-info-r::after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 90px solid #fff;
+	border-top: 90px solid transparent;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+}
+
+.ts-tj {
+	height: 370px;
+}
+
+.ts-tj li {
+	270px
+}
+
+/* 公共课 */
+.comclass .course-list {
+	display: block;
+}
+
+.course-list li {
+	width: 23%;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+
+.one-conn {
+	height: 350px;
+	background-image: url(../img/onetoone/one-mess-bg.png);
+	background-repeat:no-repeat ;
+	background-size:100% 100% ;
+}
+
+.one-conn .row {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	position: relative;
+}
+
+.one-conn .row .col-md-4 {
+	padding: 25px 40px;
+	height: 100%;
+}
+
+.one-conn-box {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding: 0 30px;
+}
+
+.one-box-5 {
+	width: 65%;
+}
+
+.one-conn-box p {
+	margin: 10px 0 ;
+	font-size: 16px;
+}
+
+.one-conn-box input {
+	width: 90%;
+	height: 40px;
+	border: 1px solid #d5d5d5;
+	border-radius: 10px;
+	padding: 0 15px;
+}
+
+.one-conn-box input:focus {
+	border: 1px solid #fff100;
+	outline: none;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,241,0,.6);
+}
+
+.one-conn-box button {
+	display: block;
+	background: #fff100;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	width: 240px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.one-conn-logo {
+    background: transparent;
+    position: absolute;
+    right: 57px;
+    top: 70px;
+}

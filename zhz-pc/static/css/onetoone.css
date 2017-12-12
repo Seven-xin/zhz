@@ -1,0 +1,458 @@
+.container {
+	padding: 0;
+}
+
+.one-banner-list.container {
+	height: 85px;
+}
+
+.one-banner-list.container li {
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	height: 85px;
+}
+
+.one-banner-list.container li img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.one-banner-list.container li:hover {
+	border: 2px solid #fff100;
+}
+
+.choose-one .more {
+	bottom: 0;
+}
+
+.choose-one-flex {
+	display:flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.choose-one-flex li {
+	cursor: pointer;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.choose-one-flex li:hover img {
+	transform: scale(1.1);
+}
+
+.one-include {
+	padding: 35px 30px 80px;
+}
+
+.one-include-title p {
+	text-align: center;
+	font-size: 16px;
+}
+
+.one-include-table {
+	width: 100%;
+	height: 315px;
+	border: 1px solid #d5d5d5;
+}
+
+.one-include-table ul {
+	width: 100%;
+	height: 100%;
+}
+
+.one-include-table  li {
+	width: 25%;
+	box-sizing: border-box;
+	float: left;
+	border: 1px solid #d5d5d5;
+	height: 33.33%;
+	padding: 15px 25px;
+}
+
+.one-include-table li p:first-child {
+	margin: 0;
+}
+
+.one-include-table li p {
+	text-align: center;
+}
+
+.one-include-table li:nth-child(1),.one-include-table li:nth-child(4),.one-include-table li:nth-child(7),.one-include-table li:nth-child(10)  {
+	background: #fff100;
+}
+
+.one-include-table li:nth-child(2),.one-include-table li:nth-child(5),.one-include-table li:nth-child(8),.one-include-table li:nth-child(11) {
+	background: #FFF296;
+}
+.one-include-table li:nth-child(3),.one-include-table li:nth-child(6),.one-include-table li:nth-child(9),.one-include-table li:nth-child(12) {
+	background: #FDFAC8;
+}
+
+.one-include-list {
+	margin-top: 20px;
+	height: 360px;
+}
+
+.one-include-list ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.one-include-list li {
+	position: relative;
+	width: 215px;
+	box-sizing: border-box;
+	border: 2px solid transparent;
+	height: 360px;
+	background: #f0f0f0;
+	cursor: pointer;
+}
+
+.one-include-list li img {
+	display: block;
+	width: 100%;
+	height: 115px;
+}
+
+.one-include-list li h4 {
+	text-align: center;
+}
+
+.one-include-list li p {
+	padding: 0 20px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.one-include-list li a {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+	border: 1px solid #d5d5d5;
+	background: #fff;
+}
+
+.one-include-list li:hover {
+	border: 2px solid #fff100;
+}
+
+.one-include-list li:hover a {
+	border: 1px solid #fff100;
+	background: #fff100;
+}
+
+.fam-teac {
+	padding: 0 35px;
+}
+
+.fam-teac .more {
+	bottom: 0;
+}
+
+.fam-teac-list {
+	position: relative;
+	height: 260px;
+	width: 100%;
+}
+
+.fam-teac-list p {
+	font-size: 16px;
+}
+
+.fam-teac-list li {
+	border-radius: 50%;
+	position: absolute;
+	left: -30px;
+	float: left;
+}
+
+.fam-teac-list li:hover {
+	transform: scale(1.2);
+}
+
+.fam-teac-list li p {
+	text-align: center;
+	margin-top: -30px;
+}
+
+.fam-teac-list li img {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.fam-teac-list li:nth-child(1), .fam-teac-list li:nth-child(1) img{
+	width: 180px;
+    height: 180px;
+    left: -4px;
+    top: 41px;
+}
+
+.fam-teac-list li:nth-child(2),.fam-teac-list li:nth-child(2) img {
+   width: 230px;
+    height: 220px;
+    left: 95px;
+    top: 28px;
+}
+
+.fam-teac-list li:nth-child(3),.fam-teac-list li:nth-child(3) img {
+	width: 240px;
+	height: 240px;
+	left: 230px;
+	top: 8px;
+}
+
+.fam-teac-list li:nth-child(4),.fam-teac-list li:nth-child(4) img {
+	width: 300;
+	height: 270px;
+	left: 370px;
+	z-index: 10;
+}
+
+.fam-teac-list li:nth-child(5),.fam-teac-list li:nth-child(5) img {
+	    width: 252px;
+    height: 240px;
+    left: 571px;
+    top: 8px;
+    z-index: 9;
+}
+
+.fam-teac-list li:nth-child(6),.fam-teac-list li:nth-child(6) img {
+    width: 213px;
+    height: 208px;
+    left: 746px;
+    top: 24px;
+    z-index: 8;
+}
+
+.fam-teac-list li:nth-child(7),.fam-teac-list li:nth-child(7) img {
+    width: 180px;
+    height: 180px;
+    left: 877px;
+    top: 46px;
+    z-index: 7;
+}
+
+.fam-teac-info {
+	text-indent: 2em;
+	font-size: 16px;
+}
+
+.one-ysfd {
+	height: 750px;
+}
+
+.one-ysfd-box {
+	padding:  80px;
+}
+
+.one-ysfd-box-list li {
+	float: left;
+	width: 150px;
+	text-align: center;
+	height: 50px;
+	border: 2px solid #d5d5d5;
+	line-height: 50px;
+	border-radius: 10px;
+	margin: 0 20px 15px 0;
+	cursor: pointer;
+}
+
+.one-ysfd-box-list li:hover {
+	background: #fff100;
+}
+
+.one-ysfd-box-item {
+	display: none;
+	margin-top: 30px;
+}
+
+.one-ysfd-box-item table {
+	width: 100%;
+	border: 1px solid #d5d5d5;
+}
+
+.one-ysfd-box-item table tr,.one-ysfd-box-item table th,.one-ysfd-box-item table td {
+	text-align: center;
+	padding: 20px
+}
+
+.one-ysfd-box-item table th:nth-child(1) {
+	width: 10%;
+}
+.one-ysfd-box-item table th:nth-child(2) {
+	width: 10%;
+}
+.one-ysfd-box-item table th:nth-child(4) {
+	width: 20%;
+}
+.one-ysfd-box-item table th {
+	height: 41px;
+	line-height: 41px;
+	background: #fff100;
+}
+
+.one-ysfd-sch-list {
+	padding: 15px;
+}
+
+.one-ysfd-box-item table tr:nth-child(2) td:nth-child(3)  {
+	text-align: left;
+}
+
+.one-ysfd-box-item table tr:nth-child(3) td:nth-child(2) {
+	text-align: left;
+}
+.one-ysfd-box-item table tr:nth-child(4) td:nth-child(2) {
+	text-align: left;
+}
+
+.one-ysfd-on {
+	background: #fff100;
+}
+
+.one-ysfd-active {
+	display: block;
+}
+
+.one-classify table {
+	width: 100%;
+	font-size: 16px;
+	/*border: 1px solid #d5d5d5;*/
+	border: none;
+}
+
+.one-classify th {
+	text-align: center;
+	border: 1px solid #d5d5d5;
+	height: 40px;
+	border-top: 0;
+}
+
+.one-classify table tr:first-child th:first-child {
+	width: 3%;
+}
+
+.one-classify table tr:first-child th:last-child {
+	width: 3%;
+}
+
+.one-classify table tr:first-child th:nth-child(2) {
+	width: 15%;
+}
+
+.one-classify table tr:first-child th:nth-child(3) {
+	width: 34%;
+}
+
+.one-classify table tr:first-child th:nth-child(4) {
+	width: 12%;
+}
+
+.one-classify table tr:first-child th:nth-child(5) {
+	width: 17%;
+}
+
+.one-classify td {
+	padding: 20px;
+	text-align: center;
+	border: 1px solid #d5d5d5;
+}
+
+.one-classify ul li {
+	text-align: left;
+}
+
+.one-classify tr:nth-child(2) td:last-child {
+	text-align: left;
+}
+
+.one-classify a {
+	background: #fff100;
+	padding: 5px 15px;
+	border-radius: 10px;
+}
+
+.one-classify tr:nth-child(2) td:last-child a {
+	text-decoration: underline !important;
+	background: none;
+}
+
+.one-gdis ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.one-conn {
+	height: 350px;
+	background-image: url(../img/onetoone/one-mess-bg.png);
+	background-repeat:no-repeat ;
+	background-size:100% 100% ;
+}
+
+.one-conn .row {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	position: relative;
+}
+
+.one-conn .row .col-md-4 {
+	padding: 25px 40px;
+	height: 100%;
+}
+
+.one-conn-box {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding: 10px 30px;
+}
+
+.one-box-5 {
+	width: 65%;
+}
+
+.one-conn-box p {
+	margin: 10px 0 ;
+	font-size: 16px;
+}
+
+.one-conn-box input {
+	width: 90%;
+	height: 40px;
+	border: 1px solid #d5d5d5;
+	border-radius: 10px;
+	padding: 0 15px;
+}
+
+.one-conn-box input:focus {
+	border: 1px solid #fff100;
+	outline: none;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,241,0,.6);
+}
+
+.one-conn-box button {
+	display: block;
+	background: #fff100;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	width: 240px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.one-conn-logo {
+    background: transparent;
+    position: absolute;
+    right: 57px;
+    top: 70px;
+}

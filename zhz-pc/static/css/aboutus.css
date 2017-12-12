@@ -1,0 +1,299 @@
+.container {
+	padding: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.about-title {
+	margin: 30px 0;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.about-title-box {
+    display: inline-block;
+    width: auto;
+    background: #fff100;
+    padding: 0 15px;
+    height: 22px;
+}
+
+.about-title-box h4 {
+	font-weight: bold;
+	position: relative;
+	top: -8px;
+	display: inline;
+}
+
+.about-info>p {
+	text-indent: 2em;
+	font-size: 18px;
+}
+
+.about-info-video {
+	padding: 45px 100px;
+}
+
+.about-video-list {
+	position: relative;
+	width: 550px;
+	height: 350px;
+	padding: 0 10px 0 0 ;
+}
+
+.about-video-list li {
+	position: absolute;
+}
+
+.about-video-list img {
+	width: 100%;
+	height: 100%;
+}
+
+.about-video-list li:nth-child(1) {
+	left: 0;
+	top: 0;
+	width: 266px;
+	height: 202px;
+}
+
+.about-video-list li:nth-child(2) {
+	right: 12px;
+	top: 0;
+	width: 267px;
+	height: 147px;
+}
+
+.about-video-list li:nth-child(3) {
+	left: 0;
+	bottom: 0;
+	width: 266px;
+	height: 145px;
+}
+
+.about-video-list li:nth-child(4) {
+	right: 12px;
+	bottom: 0;
+	width: 266px;
+	height: 202px;
+}
+
+.about-our .container {
+	padding: 50px 0;
+}
+
+.about-our-title {
+	margin-bottom: 30px;
+}
+
+.about-our-title p {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0;
+	border-bottom: 2px solid #f5d220;
+}
+
+.about-our-item {
+	height: 262px;
+}
+
+.about-our-item .col-md-6 {
+	height: 100%;
+	padding: 0;
+}
+
+.about-our-item .row {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.about-our-item .row p {
+	font-size: 16px;
+	color: #333;
+	text-indent: 2em;
+}
+
+.col-md-6-box {
+	padding: 25px 50px !important;
+}
+
+.about-pro {
+	padding: 80px 0 60px;
+}
+
+.about-pro ul {
+	display: flex;
+	justify-content: space-between;
+	height: 165px;
+	padding: 0 40px;
+}
+
+.bout-pro-bottom {
+	margin-top: 50px;
+	padding: 0 200px !important;
+}
+
+.about-pro ul li {
+	position: relative;
+	height: 100%;
+	width: 165px;
+	border-radius: 50%;
+	background: #fff;
+	border: 1px solid #626262;
+	z-index: 999;
+}
+.about-pro ul li img {
+	position: relative;
+}
+
+.about-pro ul li:hover img{
+	animation: jump 1s linear infinite;
+}
+
+@keyframes jump{
+	0% {
+		top: 0;
+	}
+	25%{
+		top: -10px;
+	}
+	50%{
+		top: 0;
+	}
+	75%{
+		top: 10px;
+	}
+	100%{
+		top: 0;
+	}
+}
+
+.about-pro ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.about-pro ul li img {
+	margin: 30px auto 0;
+	display: block;
+}
+
+.about-pro ul li p {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.bout-pro-top li::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -166px;
+    right: -25px;
+    border-right: 1px solid #626262;
+    width: 1px;
+    height: 200px;
+    transform: rotate(-36deg);
+    transform-origin: center;
+}
+
+.bout-pro-top li:last-child::after {
+	width: 0;
+	height: 0;
+}
+
+.bout-pro-bottom li::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: -81px;
+    right: 6px;
+    border-right: 1px solid #626262;
+    width: 1px;
+    height: 105px;
+    transform: rotate(34deg);
+    transform-origin: center;
+}
+
+.about-map {
+	padding: 50px 0;
+}
+
+.about-map h3 {
+	font-size: 48px;
+	text-align: center;
+}
+
+.about-map .pull-right {
+	margin-top: 50px;
+	background: #fff100;
+	height: 65px;
+	padding: 0 25px;
+}
+
+.about-map img {
+	float: left;
+	margin: 16px 10px 0 0;
+}
+
+.about-map span {
+	float: left;
+	display: inline-block;
+	height: 65px;
+	font-size: 24px;
+	line-height: 65px;
+}
+
+.about-dw {
+	padding: 50px 0;
+}
+
+.about-dw ul {
+	padding: 30px;
+}
+
+.about-dw ul li {
+	width: 275px;
+	height: 180px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.about-dw li h3 {
+	margin: 0;
+	height: 42px;
+	line-height: 42px;
+	background: #fff100;
+	text-align: center;
+}
+
+.about-dw ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-dw li p {
+	padding: 0 20px;
+	font-size: 16px;
+}
+
+.about-dw li p:nth-of-type(1){
+	margin-top: 30px;
+}
+
+.about-par {
+	padding: 50px 0;
+}
+
+.about-par li {
+	float: left;
+	margin: 0 50px;
+}

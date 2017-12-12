@@ -1,0 +1,94 @@
+.books-d .node-title-box {
+	width: 800px;
+}
+
+.books-d-item img {
+	/*width: 360px;*/
+	width: 95%px;
+	/*height: 350px;*/
+	display: block;
+	margin: 30px auto 0;
+}
+
+.books-d .comclass-d-item-info p {
+	margin-bottom: 25px;
+}
+
+.books-d .comclass-d-item-info p:nth-child(2) {
+	margin-bottom: 50px;
+}
+
+.books-d-info .comclass-d-info-l {
+	padding: 20px 340px 20px 20px;
+}
+
+.books-d-info .comclass-d-info-r {
+	width: 280px;
+	right: 50px;
+}
+
+.books-d-info-r li {
+	margin: 2px 0;
+}
+
+.books-d .comclass-d-info-r::after {
+    border-bottom: 80px solid #fff;
+    border-top: 80px solid transparent;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+}
+
+.books-list .col-xs-6.col-md-3 {
+	padding: 0;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.books-list .thumbnail {
+	padding: 5px;
+	margin: 0;
+	background: transparent;
+	border: none;
+}
+
+.books-list .thumbnail:hover {
+	border: none;
+	border: none;
+	box-shadow: 0 0 5px 5px #ccc;
+}
+
+.one-conn-box {
+	padding: 0 30px;	
+}
+
+.books-list .thumbnail img {
+	padding: 20px;
+	background: #fff;
+}
+
+.books-list-item {
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+	padding: 10px 15px 0 15px;
+	background: -webkit-linear-gradient(top,#d2d2d2,#858585);
+}
+
+.books-list-item p {
+	margin-bottom: 0;
+}
+
+.books-list-link {
+	height: 30px;
+}
+
+.books-list-link i {
+	display: block;
+	font-style: normal;
+	background: #fff100;
+	color: #333;
+	font-size: 14px;
+	padding: 2px 15px;
+	border-radius: 5px;
+}
+

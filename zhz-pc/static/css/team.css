@@ -1,0 +1,160 @@
+.team-banner {
+	margin: 20px 0;
+}
+
+.team-list {
+	padding: 0;
+}
+
+.team-list .more {
+	top: 0;
+}
+
+
+.classify {
+	max-height: 60px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.classify span {
+	float: left;
+	margin: 0 10px;
+	background: #fff100;
+	padding: 5px 15px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.carousel .container {
+	padding: 0;
+}
+
+.classify ul {
+	float: left;
+}
+
+.classify li {
+	float: left;
+	margin: 0 3px;
+	margin-top: 7px;
+}
+
+.classify li a {
+	padding: 2px;
+	margin: 5px;
+	text-decoration: none;
+	color: #333;
+}
+
+.classify li:first-child {
+	background: #fff100;
+	border-radius: 10px;
+}
+
+
+.classify li:hover {
+	background: #fff100;
+	border-radius: 10px;
+}
+
+.team-item li {
+	padding: 0 30px;
+	margin: 30px 0;
+}
+
+.team-item li .col-md-2 .thumbnail {
+	padding: 10px;
+	border: 2px dashed #fff;
+}
+
+.thumbnail {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.col-md-10 .thumbnail .caption {
+	padding: 0 !important;
+}
+
+.col-md-10 {
+	padding: 0;
+}
+
+.col-md-10 h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+
+.caption2 {
+	padding: 10px;
+	border: 1px dashed #fff;
+}
+
+.col-md-10 .thumbnail p {
+	height: 100px;
+	margin-bottom: 0;
+	background: #f5f5f5 !important;
+	text-indent: 2em;
+	padding: 5px;
+} 
+
+.col-md-10 h3 i{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/homepage/tuoyuan.png) no-repeat 100%;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    top: -10px;
+}
+
+
+.list2-cont-page {
+	height: 80px;
+	box-sizing: border-box;
+	padding: 25px 0;
+}
+
+.list2-cont-page-item {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.list2-cont-page-item>span {
+	margin-right: 15px;
+}
+
+.list-cont-page-search {
+	display: inline;
+}
+
+.list2-cont-page-item a {
+	margin-right: 15px;
+}
+
+.list2-cont-page-item a:nth-of-type(1) {
+	margin-left: 10px;
+}
+
+.list2-cont-page-item input {
+	margin: 0 10px 0 20px;
+	height: 20px;
+	width: 30px;
+	border: 1px solid #d5d5d5;
+	outline: none;
+	padding: 0 5px;
+	border-radius: 5px;
+}
+
+.list2-cont-page-item p {
+	display: inline;
+}

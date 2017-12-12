@@ -1,0 +1,71 @@
+.ts-show-list {
+	margin: 50px auto 0;
+}
+
+.ts-show-list .row {
+	margin: 0 auto;
+	height: 440px;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.ts-show-list.container {
+	padding: 0;
+}
+
+.ts-show-list.container .col-xs-6.col-md-6 {
+	padding: 0;
+}
+
+.ts-show-list .row .thumbnail {
+	padding: 40px 0 40px 15px;
+	border: none;
+}
+
+.ts-show-list-bg {
+	width: 100%;
+	margin-top: -20px;
+	height: 100px;
+}
+
+.ts-show-list .row p {
+	text-indent: 2em;
+	margin-bottom: 0;
+}
+
+.ts-show-list-info {
+	padding-right: 30px;
+}
+
+.ts-show-list-info h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn-zixun {
+	display: block;
+	width: 160px;
+	height: 40px;
+	background: #fff100;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 10px;
+	margin: 50px auto 0;
+}
+
+.ts-tj::after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.ts-tj .container {
+	position: relative;
+	padding: 0;
+}
+
+.ts-tj .more {
+	right: 30px;
+	top: 0;
+}

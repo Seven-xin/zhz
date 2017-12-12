@@ -1,0 +1,116 @@
+.kylb-bg {
+	background: #1b126d;
+}
+
+.kylb-cont {
+	height: 875px;
+}
+
+.container {
+	padding: 0;
+}
+
+.kylb-cont .container {
+	height: 100%;	
+	background: url(../img/kylb/kylb-bg1.png) no-repeat 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.kylb-cont .container img:nth-of-type(1) {
+	margin: 120px 0 20px 0;
+}
+
+.kylb-cont .container p {
+	font-size: 24px;
+	color: #fff;
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+.one-conn {
+	height: 400px;
+	background-repeat:no-repeat ;
+	background-size:100% 100% ;
+}
+
+.one-conn .row {
+	margin: 0;
+	height: 100%;
+	display: flex;
+	position: relative;
+	padding: 30px;
+	background: transparent;
+}
+
+.one-conn-item img {
+	position: relative;
+	top: -30px;
+}
+
+.one-conn .row .col-md-4 {
+	padding: 25px 80px;
+	height: 100%;
+}
+
+.one-conn-box {
+	width: 100%;
+	height: 100%;
+	padding: 10px 30px;
+}
+
+.one-conn-box2 {
+	background: #aca5e5;
+}
+
+.one-box-5 {
+	width: 65%;
+}
+
+.one-conn-box p {
+	margin: 10px 0 ;
+	font-size: 16px;
+}
+
+.one-conn-box input {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #d5d5d5;
+	border-radius: 10px;
+	padding: 0 15px;
+}
+
+.one-conn-box input:focus {
+	border: 1px solid #fff100;
+	outline: none;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,241,0,.6);
+}
+
+.one-conn-box button {
+	display: block;
+	background: #fff100;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	width: 240px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.one-conn-logo {
+    background: transparent;
+    position: absolute;
+    right: 57px;
+    top: 70px;
+}
+
+.one-conn-icon {
+	position: absolute;
+    left: 80px;
+    top: 16px;
+}
+
+form {
+    margin-top: 30px;
+}
